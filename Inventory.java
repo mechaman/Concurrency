@@ -1,3 +1,6 @@
+/**
+ * Author: Julien Hoachuck
+ */
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -299,14 +302,6 @@ public class Inventory {
     Inventory.Available(cm,3); // Is bear available?
     Inventory.PurchaseItem(cm,clq,2,1); // Purchase 1 falcon.
     Inventory.Available(cm,3); // Is bear available?
-    
-    
-
-
-
 }
-
-
-
 
 }
